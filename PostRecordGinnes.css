@@ -1,0 +1,463 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden;
+}
+
+.UpMainBlock{
+
+    width: 100%;
+    height: 100px;  
+    background-color: rgb(44, 120, 139);
+    position: fixed;
+    bottom: 980px;
+    z-index: 2;
+    right: 1px;
+}
+
+.UpMainBlock a{
+    color: black;
+}
+
+.MainBlockClicable{
+    
+    position: relative;
+    width: 120px;
+    height: 60px;
+    background-color: #4a8bb6;
+    top: 25px;
+    left: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+   
+    color: black;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+.MainBlockClicable:hover{
+    background-color: #5da0cc;
+}
+.MainBlockClicable a{
+    text-decoration: none;
+}
+
+.MainBlockText{
+    position: relative;
+    top: 18px;
+    font-weight: bold;
+font-size: 20px;
+ 
+}
+
+.SearchBlock{
+
+    position: relative;
+    width: 600px;
+    height: 65px;
+    background-color: #4a8bb6;
+    
+    border-radius: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 750px;
+    bottom: 37px;
+    transition: background-color 0.5s ease;
+}
+
+.SearchBlock:hover{
+background-color: #5da0cc;
+}
+
+.SearchBlock a{
+    text-decoration: none;
+}
+
+
+.loopImage{
+    position: relative;
+    bottom: 10px;
+    left: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+.textSearchBlock{
+    position: relative;
+    font-size: 20px;
+    left: 70px;
+    top: 20px;
+  width: 500px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.textSearchBlock a{
+    text-decoration: none;
+ 
+}
+
+
+.PrifileBlock{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background-color: #43a577;
+    border-radius: 50px;
+    z-index: 2;
+    left: 1600px;
+    top: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.PrifileBlock:hover{
+    background-color: #55c28f;
+}
+
+.LogoImage{
+    position: relative;
+    width: 100px;
+    bottom:140px;
+    left: 50px;
+}
+
+.TextUnderLogo{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: 175px;
+}
+
+.PrifileBlockGinnes{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(60, 60, 223);
+    position: relative;
+    top: 150px;
+    border-radius: 50px;
+    left: 100px;
+}
+
+.TextGinnes{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+    left: 220px;    
+}
+
+.Time10HourseBefore{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 240px;
+}
+
+.JoinGroupGinnessBlock{
+width: 240px;
+height: 70px;
+background-color: aliceblue;
+position: relative;
+border-radius: 50px;
+left: 1400px;
+bottom: 10px;
+transition: background-color 0.5s ease;
+}
+
+.JoinGroupGinnessBlock:hover{
+    background-color: rgb(152, 159, 165);
+}
+
+
+.TextJoinGinnes{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+position: relative;
+top: 17px;
+}
+
+.TextPostGinnes{
+   
+    width: 600px;
+    height: 450px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    left: 300px;
+    top: 100px;
+}
+
+.ImageManUnderwater{
+    width: 600px;
+    border-radius: 50px;
+    position: relative;
+    left: 1000px;
+    bottom: 300px;
+}
+
+.ImageWomanUnderwater{
+    width: 600px;
+    position: relative;
+    border-radius: 50px;
+    top: 140px;
+    right: 350px;
+}
+
+.TextPostGinnes2{
+    font-size: 40px;
+    position: relative;
+    font-weight: bold;
+
+width: 800px;
+height: 400px;
+left: 900px;
+bottom: 190px;
+}
+
+.UpAwrrowGinnes{
+    width: 100px;
+    position: relative;
+    left: 500px;
+}
+
+.UpAwrrowGinnesNumbers{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+   bottom: 80px;
+   left: 630px;
+}
+
+.DownArrowGinnes{
+    width: 100px;
+    position: relative;
+    left: 850px;
+    bottom: 155px;
+}
+
+.DownArrowGinnesNumbers{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+   bottom: 225px;
+   left: 1000px;
+}
+
+.CommentsIconGinnes{
+  width: 85px;  
+  position: relative;
+  left: 1150px;
+  bottom: 290px;
+}
+
+.CommentsIconGinnesNumbers{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+   bottom: 360px;
+   left: 1300px;
+}
+
+.LineGinness{
+    background-color: rgb(166, 229, 208);
+    width: 5000px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+   bottom: 300px;
+}
+
+.UserProfileGinnes1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(21, 99, 99);
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+  
+}
+
+.UserNicknameGinnes1{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 290px;
+    left: 500px;
+}
+
+.WhenUserCommentGInnes1{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 320px;
+    left: 700px;
+}
+
+.CommentTextGinnes1{
+    width: 900px;
+    height: 100px;
+
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    left: 500px;
+    bottom: 280px;
+}
+
+.BlockAnswearCommentGinnes1{
+    width: 150px;
+    height: 40px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 50px;
+    bottom: 270px;
+    left: 800px;
+}
+
+.Text2Ginness{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 7px;
+}
+
+.ArrowUpGinness2{
+    width: 50px;
+    position: relative;
+    bottom: 310px;
+    left: 1000px;
+}
+
+.ArrowUpGinness2Numbers{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 355px;
+    left: 1070px;
+}
+
+.ArrowDownGinness2{
+    width: 50px;
+    position: relative;
+    bottom: 400px;
+    left: 1150px;
+}
+
+.ArrowDownGinness2Numbers{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 442px;
+    left: 1230px;
+}
+
+.LineGinness2{
+    background-color: rgb(166, 229, 208);
+    width: 5000px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+   bottom: 400px;
+}
+
+.UserProfileGinnes2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(235, 143, 23);
+    position: relative;
+    bottom: 350px;
+    left: 400px;
+}
+
+.UserNicknameGinnes2{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 390px;
+    left: 500px;   
+}
+
+.WhenUserCommentGInnes2{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 420px;
+    left: 770px;
+}
+
+.CommentTextGinnes2{
+    width: 900px;
+    height: 100px;
+
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    left: 500px;
+    bottom: 370px;
+}
+
+.BlockAnswearCommentGinnes2{
+    width: 150px;
+    height: 40px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 50px;
+    bottom: 350px;
+    left: 800px;
+}
+
+.Text3Ginness{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 7px;  
+}
+
+.ArrowUpGinness3{
+    width: 50px;
+    position: relative;
+    bottom: 390px;
+    left: 1000px;
+}
+
+.ArrowUpGinness3Numbers{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 434px;
+    left: 1070px;
+}
+
+.ArrowDownGinness3{
+    width: 50px;
+    position: relative;
+    bottom: 475px;
+    left: 1150px;  
+}
+
+.ArrowDownGinness3Numbers{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 519px;
+    left: 1230px;
+}
+
+.LineGinness3{
+    background-color: rgb(166, 229, 208);
+    width: 5000px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+   bottom: 480px;
+}

@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden;
+}
+
+.DownMainBlock{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44, 120, 139);
+    
+    position: fixed;
+    top: 980px;
+    z-index: 2;
+    right: 1px;
+}
+
+.AddCycleSize{
+    width: 80px;
+  position: relative;
+  left: 910px;
+}
+
+.TextUnderCicrle{
+    position: relative;
+    font-weight: bold;
+    left: 910px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.HomeIcon{ 
+    position: relative;
+    bottom: 105px;
+    width: 80px;
+    left: 730px;
+}
+
+.TextUnderHomeIcon{
+    position: relative;
+   bottom: 118px;
+    left: 690px;   
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+}
+
+.ChatIcon{
+    position: relative;
+    width: 80px;
+    bottom: 210px;
+    left: 1050px;
+}
+
+.TextUnderChatIcon{
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    bottom: 225px;
+    left: 1075px;
+    color: white;
+}
+
+.NotificationIcon{
+    position: relative; 
+    width: 80px;
+    bottom: 319px;
+    left: 1180px;
+ }
+ 
+ .TextUnderNotificationIcon{
+     position: relative;
+     bottom: 332px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 1158px;
+    color: white;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ .TextToday{
+    font-size: 50px;
+    position: relative;
+    font-weight: bold;
+    left: 100px;
+    top: 60px;
+ }
+
+ .Line1{
+    background-color: rgb(166, 229, 208);
+    width: 3500px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+   right: 10px;
+    top: 100px;
+ }
+
+ .GroupBlock{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50px;
+    top: 150px;
+    left: 30px;
+ }
+
+ .TimeWhenSend{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 160px;    
+    top: 60px;
+ }
+
+ .GroupName{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 160px;
+    top: 80px;
+ }
+
+ .TextNotification{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 350px;
+    top: 50px;
+ }
+
+ .Line2{
+    background-color: rgb(166, 229, 208);
+    width: 3500px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+   right: 10px;
+    top: 100px;
+ }
+
+ .TextBefore{
+    font-size: 50px;
+    position: relative;
+    font-weight: bold;
+    left: 100px;
+    top: 140px;
+ }
+
+ .NoTextBefore{
+    font-size: 30px;
+   
+    position: relative;
+    top: 180px;
+    left: 150px;
+ }

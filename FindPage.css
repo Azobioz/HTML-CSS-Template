@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden;
+}
+
+
+.BlockSearch{
+    width: 900px;
+    height: 60px;
+    background-color: aliceblue;
+position: relative;
+left: 500px;
+top: 100px;
+border-radius: 10px;
+transition: background-color 0.5s ease;
+}
+
+.BlockSearch:hover{
+    background-color: rgb(149, 159, 168);
+}
+
+.TextSearch{
+font-weight: bold;
+font-size: 36px;
+position: relative;
+left: 120px;
+top: 7px;
+}
+
+.LoopIcon{
+    width: 45px;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+
+.CloseIcon{
+    width: 60px;
+    position: relative;
+    left: 1330px;
+    top: 19px;
+   
+}
+
+.ArrowBackIcon{
+    position: relative;
+    width: 80px;
+    left: 320px;
+    top: 30px;
+}
+
+.ClockIcon{
+    width: 65px;
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.TextITF2{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 500px;
+    top: 95px;
+}
+
+.ClockIcon2{
+    width: 65px;
+    position: relative;
+    top: 150px;
+    left: 395px;
+}
+
+.TextMadeMeSmile{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 500px;
+    top: 95px;
+}
+
+.Line{
+    background-color: rgb(166, 229, 208);
+    width: 4000px;
+    height: 5px;
+    position: relative;
+    top: 200px;
+}
+
+.PopularNowText{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.BlockPopular1{
+    width: 1000px;
+    height: 400px;
+    
+    position: relative;
+    left: 550px;
+    top: 350px;
+ 
+    
+}
+
+
+
+.TextRecordGin{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 90px;
+    color: rgb(24, 79, 110);
+}
+
+.Lightning{
+    width: 70px;
+  
+    position: relative;
+    bottom: 55px;
+}
+
+.SomeText1{
+    font-size: 35px;
+    width: 600px;
+    height: 200px;
+    position: relative;
+font-weight: bold;
+bottom: 20px;
+color:black;
+}
+
+.Image1{
+    position: relative;
+    bottom: 400px;
+    width: 300px;
+    border-radius: 20px;
+    left: 1200px;
+    top: 70px;
+}
+
+.Line2{
+    background-color: rgb(166, 229, 208);
+    width: 4000px;
+    height: 5px;
+    position: relative;
+    top: 160px;
+}
+
+.BlockPopular2{
+    width: 800px;
+    height: 300px;
+    
+    position: relative;
+    left: 550px;
+    top: 150px;
+    
+}
+
+.Lightning2{
+    width: 70px;
+  
+    position: relative;
+    bottom: 55px;
+    left: 550px;
+    top:220px;
+    z-index: 1;
+}
+
+.TextFireing2000{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    color: rgb(24, 79, 110); 
+}
+
+.SomeText2{
+    font-size: 35px;
+    width: 600px;
+    height: 200px;
+    position: relative;
+font-weight: bold;
+top: 40px;
+}
+
+.Image2{
+    width: 260px;
+    position: relative;
+    border-radius: 30px;
+    left: 600px;
+    bottom: 170px;
+}
+
+.Line3{
+    background-color: rgb(166, 229, 208);
+    width: 4000px;
+    height: 5px;
+    position: relative;
+    top: 160px;
+}
+
+a{
+    text-decoration: none;
+    
+}

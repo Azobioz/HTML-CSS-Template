@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden;
+}
+
+.NextBlock{
+    width: 180px;
+    height: 55px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 30px;
+    left: 1500px;
+    top: 30px;
+    transition: background-color 0.5s ease;
+}
+
+.NextBlock:hover{
+    background-color: rgb(216, 231, 240);
+}
+
+.TextInsideNextBlock{
+    text-align: center;
+    position: relative;
+    top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.ArrowBackIcon{
+    width: 80px;
+    position: relative;
+    left: 200px;
+    bottom: 55px;
+}
+
+.GroupTF2Block{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(137, 241, 32);
+    position: relative;
+    left: 200px;
+}
+
+.TextRightToGroupTF2Block{
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    left: 330px;
+    bottom: 70px;
+}
+
+.block1{
+    width: 1400px;
+    height: 70px;
+    background-color: rgb(62, 145, 145);
+    position: relative;
+    border-radius: 50px;
+    left: 200px;
+    bottom: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.block1:hover{
+    background-color: rgb(35, 136, 136);
+}
+
+.TextInsideblock1{
+    font-weight: bold;
+    font-size: 50px;
+  left: 30px;
+    position: relative;
+    top: 2px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}

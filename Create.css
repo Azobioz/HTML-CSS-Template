@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden
+}
+
+.CloseIcon{
+    width: 80px;
+    position: relative;
+    left: 200px;
+}
+
+.NextBlock{
+    width: 150px;
+    height: 50px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 30px;
+    left: 1500px;
+    bottom: 55px;
+    transition: background-color 0.5s ease;
+}
+
+.NextBlock:hover{
+    background-color: rgb(216, 231, 240);
+}
+
+
+
+.TextInsideNextBlock{
+    text-align: center;
+    position: relative;
+    top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.TextAddMainText{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 400px;
+}
+
+.TextAddMiddleText{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 450px;
+}
+
+.ClipIcon{
+    width: 60px;
+    position: relative;
+    top: 750px;
+    left: 400px;
+}
+
+.AddPhotoIcon{
+    width: 60px;
+    position: relative;
+    top: 750px;
+    left: 500px;
+}
+
+.ForTextIc0n{
+    width: 60px;
+    position: relative;
+    top: 750px;
+    left: 600px;
+}
+
+a{
+    text-decoration: none;
+    
+}

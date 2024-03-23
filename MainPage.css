@@ -1,0 +1,449 @@
+body{
+    background-color: rgb(85, 175, 175);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}   
+.DownMainBlock{
+width: 100%;
+height: 100px;
+background-color: rgb(44, 120, 139);
+
+position: fixed;
+top: 980px;
+z-index: 2;
+right: 1px;
+}
+
+.UpMainBlock{
+
+    width: 100%;
+    height: 100px;  
+    background-color: rgb(44, 120, 139);
+    position: fixed;
+    bottom: 980px;
+    z-index: 2;
+    right: 1px;
+}
+
+.UpMainBlock a{
+    color: black;
+}
+
+.MainBlockClicable{
+    
+    position: relative;
+    width: 120px;
+    height: 60px;
+    background-color: #4a8bb6;
+    top: 25px;
+    left: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+   
+    color: black;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+.MainBlockClicable:hover{
+    background-color: #5da0cc;
+}
+.MainBlockClicable a{
+    text-decoration: none;
+}
+
+.MainBlockText{
+    position: relative;
+    top: 18px;
+    font-weight: bold;
+font-size: 20px;
+ 
+}
+
+.SearchBlock{
+
+    position: relative;
+    width: 600px;
+    height: 65px;
+    background-color: #4a8bb6;
+    
+    border-radius: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 750px;
+    bottom: 37px;
+    transition: background-color 0.5s ease;
+}
+
+.SearchBlock:hover{
+background-color: #5da0cc;
+}
+
+.SearchBlock a{
+    text-decoration: none;
+}
+
+
+.loopImage{
+    position: relative;
+    bottom: 10px;
+    left: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+.textSearchBlock{
+    position: relative;
+    font-size: 20px;
+    left: 70px;
+    top: 20px;
+  width: 500px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.textSearchBlock a{
+    text-decoration: none;
+ 
+}
+
+
+.PrifileBlock{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background-color: #43a577;
+    border-radius: 50px;
+    z-index: 2;
+    left: 1600px;
+    top: 20px;
+    
+}
+
+
+
+.LogoImage{
+    position: relative;
+    width: 100px;
+    bottom:140px;
+    left: 50px;
+}
+
+.TextUnderLogo{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: 175px;
+}
+
+.AddCycleSize{
+  width: 80px;
+position: relative;
+left: 910px;
+}
+
+.TextUnderCicrle{
+    position: relative;
+    font-weight: bold;
+    left: 910px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.HomeIcon{ 
+    position: relative;
+    bottom: 105px;
+    width: 80px;
+    left: 730px;
+}
+
+.TextUnderHomeIcon{
+    position: relative;
+   bottom: 118px;
+    left: 690px;   
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+}
+
+.TextUnderHomeIcon a{
+    text-decoration: none;
+}
+
+.ChatIcon{
+    position: relative;
+    width: 80px;
+    bottom: 210px;
+    left: 1050px;
+}
+
+.TextUnderChatIcon{
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    bottom: 225px;
+    left: 1075px;
+    color: white;
+}
+
+.NotificationIcon{
+   position: relative; 
+   width: 80px;
+   bottom: 319px;
+   left: 1180px;
+}
+
+.TextUnderNotificationIcon{
+    position: relative;
+    bottom: 332px;
+   font-size: 20px;
+   font-weight: bold;
+   left: 1158px;
+   color: white;
+}
+
+.PostsBlock{
+    position: relative;
+    background-color: rgb(95, 137, 150);
+    width: 600px;
+    height: 1700px;
+    left: 700px;
+    top: 110px;
+border-radius: 10px;
+z-index: 1;
+}
+
+.GroupProfileCicle1{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(214, 105, 33);
+    border-radius: 100px;
+    left: 50px;
+    top: 20px;
+ 
+}
+
+
+
+.WhenPostMade1{
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+    
+}
+
+.GroupNickname1{
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+    font-weight: bold;
+  
+}
+
+.JoinGroupBlock1{
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+    left: 410px;
+    bottom: 60px;
+    transition: background-color 0.5s ease;
+}
+
+.JoinGroupBlock1:hover{
+    background-color: rgb(30, 57, 80);
+}
+
+.TextInsideJoinGroupBlock1{
+    position: relative;
+    left: 16px;
+    top: 3px;
+    font-weight: bold;
+}
+
+.PostImage1{
+    position: relative;
+  
+    width: 400px;
+    left: 100px;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+.UpArrowIcon1{
+    position: relative;
+  top: 50px;
+  right: 360px;
+}
+
+.NumbersUpArrowIcon1{
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 110px;
+    font-size: 24px;
+}
+
+.DownArrowIcon1{
+    position: relative;
+    bottom: 30px;
+    left: 190px;
+}
+
+.NumbersDownArrowIcon1{
+    font-weight: bold;
+    position: relative;
+    font-size: 24px;
+    left: 260px;
+    bottom: 70px;
+}
+
+.CommentIcon1{
+    width: 40px;
+    position: relative;
+    left: 340px;
+    bottom: 100px;
+}
+
+.NumbersCommentIcon1{
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    left: 400px;
+    bottom: 138px;
+}
+
+.NextPostBlock1{
+    position: relative;
+    width: 600px;
+    height: 5px;
+    bottom: 90px;
+    background-color:#7dc3f1;
+    
+}
+
+.GroupProfileCicle2{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: rgb(180, 60, 60);
+    left: 50px;
+    bottom: 50px;
+}
+
+.WhenPostMade2{
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    left: 130px;
+    bottom: 110px;
+}
+
+
+.GroupNickname2{
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+.JoinGroupBlock2{
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+    left: 395px;
+    bottom: 135px;
+}
+
+.TextInsideJoinGroupBlock2{
+    position: relative;
+    left: 16px;
+    top: 3px;
+    font-weight: bold;
+}
+
+.TextPost1{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 70px;
+    bottom: 90px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.PostImage2{
+    width: 400px;
+    height: 220px;
+    position: relative;
+    border-radius: 20px;
+    left: 90px;
+    bottom: 110px;
+}
+
+.UpArrowIcon2{
+    position: relative;
+    bottom: 35px;
+    right: 360px; 
+}
+
+.NumbersUpArrowIcon2{
+    font-weight: bold;
+    position: relative;
+    bottom: 75px;
+    left: 115px;
+    font-size: 24px;
+}
+
+.DownArrowIcon2{
+    position: relative;
+    bottom: 115px;
+    left: 210px;
+}
+
+.NumbersDownArrowIcon2{
+    font-weight: bold;
+    position: relative;
+    font-size: 24px;
+    left: 280px;
+    bottom: 153px;
+}
+
+.CommentIcon2{
+    width: 40px;
+    position: relative;
+    left: 370px;
+    bottom: 185px;
+}
+
+.NumbersCommentIcon2{
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    left: 430px;
+    bottom: 224px;
+}
+
+.NextPostBlock2{
+    position: relative;
+    width: 600px;
+    height: 5px;
+    bottom: 160px;
+    background-color:#7dc3f1;
+}

@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(85, 175, 175);
+    overflow-x: hidden
+}
+
+.DownMainBlock{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44, 120, 139);
+    
+    position: fixed;
+    top: 980px;
+    
+    right: 1px;
+}
+
+.AddCycleSize{
+    width: 80px;
+    position: relative;
+    left: 910px;
+}
+
+.TextUnderCicrle{
+    position: relative;
+    font-weight: bold;
+    left: 910px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.HomeIcon{
+    position: relative;
+    bottom: 105px;
+    width: 80px;
+    left: 730px;
+}
+
+.TextUnderHomeIcon{
+    position: relative;
+   bottom: 118px;
+    left: 690px;   
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.ChatIcon{
+    position: relative;
+    width: 80px;
+    bottom: 210px;
+    left: 1050px;
+}
+
+.TextUnderChatIcon{
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    bottom: 225px;
+    left: 1075px;
+    color: white;
+}
+
+.NotificationIcon{
+    position: relative; 
+    width: 80px;
+    bottom: 319px;
+    left: 1180px;
+ }
+
+.TextUnderNotificationIcon{
+    position: relative;
+    bottom: 332px;
+   font-size: 20px;
+   font-weight: bold;
+   left: 1158px;
+   color: white;
+}
+
+.UpBackground{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(187, 245, 226);
+    position: fixed;
+    right: 1px;
+    top: 0;
+}
+
+.ProfileCircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #43a577;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.TextUnderProfileCircle{
+    color: black;
+        font-size: 60px;
+        position: relative;
+        font-weight: bold;
+        top: 100px;
+}
+
+.TextUnderProfileNickname{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    top: 100px;
+    left: 20px;
+}
+.CalendarIcon{
+    width: 50px;
+    position: relative;
+    top: 125px;
+    left: 16px;
+}
+
+.TextRightCalendarIcon{
+   position: relative; 
+   font-size: 25px;
+   font-weight: bold;
+   top: 85px;   
+   left: 70px;
+}
+
+.Block1Profile{
+    width: 7px;
+    height: 250px;
+    background-color: rgb(166, 229, 208);
+    position: relative;
+    left: 520px;
+    border-radius: 10px;
+    bottom: 100px;
+}
+
+.Block2Profile{
+    width: 2000px;
+    height: 7px;
+    background-color: rgb(166, 229, 208);
+ position: relative;
+    right: 10px;
+}
+
+.TextWicostNumbers{
+    font-size: 50px;
+    position: relative;
+    left: 580px;
+    bottom: 360px;
+}
+
+.TextSubscribeNumbers{
+    font-size: 50px;
+    position: relative;
+    left: 580px;
+    bottom: 310px;
+}
+
+.TextVicost{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+}
+
+.Block3Profile{
+    background-color: rgb(49, 141, 141);
+    width: 265px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    left: 370px;
+    bottom: 80px;
+}
+
+.TextComments{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 1250px;
+    bottom: 145px;
+}
+
+.TextInVicost{
+    font-size: 50px;
+    width: 700px;
+    height: 200px;
+    
+    position: relative;
+    bottom: 60px;
+    left: 650px;
+}
